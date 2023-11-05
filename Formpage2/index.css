@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  padding: 176px 135px 208px 135px;
+  background-color: #28293e;
+  min-width: 100vh;
+}
+.flex-container {
+  display: flex;
+}
+.box-container {
+  width: 470px;
+  padding: 57px 48px 48px 48px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  background-color: #fff;
+}
+.box-container h1 {
+  margin-bottom: 27px;
+  color: var(--Text_Dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.input-1 {
+  width: 374px;
+  height: 48px;
+  padding-left: 16px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #f3d1bf;
+  background: #fff;
+}
+.position-box {
+  position: relative;
+}
+.images-1 {
+  width: 10px;
+  height: 6px;
+  position: absolute;
+  top: 20px;
+  left: 350px;
+}
+.input-2 {
+  width: 374px;
+  height: 96px;
+  padding-left: 16px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #f3d1bf;
+  background: #fff;
+}
+.main-container .flex-container .box-container button {
+  padding: 18px 30px 16px 30px;
+  margin-left: 220px;
+  width: 154px;
+  border: none;
+  border-radius: 6px;
+  background: #ef6d58;
+  color: #fff;
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.right-container {
+  margin-top: 28px;
+  margin-left: 130px;
+}
+.right-container h1 {
+  margin-bottom: 20px;
+  color: var(--Text_Light_Accent, #ef6d58);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.right-container h2 {
+  margin-bottom: 28px;
+  color: var(--Text_Light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+.text-1 {
+  margin-bottom: 33px;
+  width: 470px;
+  color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.flex-container-2 {
+  margin-bottom: 16px;
+  display: flex;
+  position: relative;
+}
+.flex-container-2 img:first-child {
+  width: 48px;
+  height: 48px;
+}
+.images-2 {
+  width: 23px;
+  height: 24px;
+  position: absolute;
+  top: 11px;
+  left: 13px;
+}
+.text-2 {
+  margin-top: 10px;
+  margin-left: 16px;
+  color: var(--Text_Light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
