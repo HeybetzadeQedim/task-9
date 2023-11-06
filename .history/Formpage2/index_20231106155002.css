@@ -59,7 +59,7 @@
   border: 1px solid #f3d1bf;
   background: #fff;
 }
-.main-container .box-container button {
+.main-container  .box-container button {
   padding: 18px 30px 16px 30px;
   margin-left: 220px;
   width: 154px;
@@ -116,13 +116,12 @@
 .flex-container-2 {
   margin-bottom: 16px;
   display: flex;
-}
-.img-box {
   position: relative;
-  width: 48px;
-  height: 48px;
 }
-li img:first-child {
+.img-box{
+  pos
+}
+.flex-container-2 img:first-child {
   width: 48px;
   height: 48px;
 }
@@ -130,9 +129,8 @@ li img:first-child {
   width: 23px;
   height: 24px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 11px;
+  left: 13px;
 }
 .text-2 {
   margin-top: 10px;
